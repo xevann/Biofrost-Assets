@@ -12,6 +12,24 @@ Compiler: Neutron Clang 16.0.0
 - for AOSP ROMs only, MIUI unsupported
 - Pixel Thermal ROMs are unsupported
 ```
+
+**v1.022**
+* Bump compiler to 16012023 tag
+* Remove WQ_CPU_INTENSIVE from unbound workqueue allocations
+* Drop CPU Input Boost (excessive battery drains)
+* Rework on Frequency Table (for better power efficiency)
+* Import some more binder optimizations/backports
+* Enable BPF JIT to improve eBF programs performance
+* Reconfigure schedhorizon under kprofiles
+* Configure subsystem boosting under kprofiles (ddr bus)
+* Retune uclamp for overall usage and less jitters
+* Rework on LTO Optimizations, clean LTO inlining
+* Fix system lags on long uptime (make kcompactd more responsive)
+* Optimize thermal simple configuration for better thermal throttling
+* Cleanup and optimize defconfig (disabled all redundant configs)
+* Moar UFS optimizations/fixups
+* More misc changes, power efficiency improvements/under-the-hood changes
+
 **v1.019**
 * Compiled using custom LLVM 16.x upstream (LLD Linker + IAS)
 * Compiled with Full LTO, POLLY, CPU-specific optimization, DCE and RELR Relocations
