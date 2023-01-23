@@ -13,6 +13,17 @@ Compiler: Neutron Clang 16.0.0
 - Pixel Thermal ROMs are unsupported
 ```
 
+**v1.023**
+* Update UtilClamp tuning (improve it further)
+* Drop swappiness to 120 (let apps stay on ram for slightly longer)
+* Dont let userspace set maximum frequency (in accordance to thermal simple)
+* Reconfigure thermal simple parameters for mildly calmer throttling
+* Reintroduce CPU Input boosting (only for kernel profile 2/3)
+* Reconfigure schedhorizon frequency hold duration
+* Disabled unused/redundant configs (this includes unused cpu governors and ioscheds)
+* Improve power efficiency (active and idle drain)
+* Misc improvements (forgot a lot of em)
+
 **v1.022**
 * Bump compiler to 16012023 tag
 * Remove WQ_CPU_INTENSIVE from unbound workqueue allocations
