@@ -13,6 +13,22 @@ Compiler: Neutron Clang 17.0.0
 - Pixel Thermal ROMs are unsupported
 ```
 
+**v1.024**
+* Compiled with Neutron Clang 17.0.0 (28012023)
+* Drop thermal simple and other thermal changes from v1.022 and introduce:
+  - Workaround for xiaomi thermal mitigation
+  - Use and switch to step_wise as default thermal governor
+  - Import step_wise governor ricing from msm-4.14
+* Cleanup previous KGSL changes to make way for better optimizations
+* Affine KGSL's low_prio_worker thread to big CPUs
+* Improve UFS Performance by importing optimizations/ricings
+* Huge cpuidle code cleanup and optimization; Switch to WFI (Wait for Interrupt)
+* Make cpuidle latency notifier no-op
+* Set default read_ahead_kb to 64KB (for UFS)
+* Increase default vmstat interval to 60s
+* Rework on kernel branding; place git commit hash on additional kernel information
+* Misc fixes and improvements.
+
 **v1.023**
 * Update UtilClamp tuning (improve it further)
 * Drop swappiness to 120 (let apps stay on ram for slightly longer)
