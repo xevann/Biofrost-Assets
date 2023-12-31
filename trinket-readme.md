@@ -3,7 +3,7 @@
 ```
 Type: Stable || OBT (Channel Releases Only)
 Devices: Realme 5 Series (Realme 5, 5i, 5s)
-Compiler: Android (10087095,  pgo,  bolt,  lto, -mlgo, based on r487747c) clang version 17.0.2
+Compiler: Android (11163443,  pgo,  bolt,  lto,  mlgo, based on r510928) clang version 18.0.0
 Optimizations: POLLY, RELR, O3 and CPU-specific micro-optimizations (Cortex flags)
 Kernel Source: https://github.com/mcdofrenchfreis/biofrost-kernel-realme-trinket
 ```
