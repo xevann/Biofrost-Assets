@@ -56,4 +56,5 @@ For Android Version 11 to 13:
 ## Important Notes
 - If you have any doubts, questions/queries, join and ask at https://t.me/BiofrostHub
 - For the latest Releases (R12 R-base): Android 10 is not supported anymore.
+- ROMs with Android Versions 11 to 13 REQUIRES "fstab_fix.zip" for it to boot.
 - Should you encounter any issues after flashing the kernel, your previous kernel and dtbo files will always be saved on your internal storage, named accordingly: backup_boot.img, backup_dtbo.img.
