@@ -31,6 +31,9 @@ Closed Source, sorry :P
 Side Notes:
 - If a build has both names, that just obviously means it supports both. (e.g: PixelThermal+OldTouchFirmware)
 - Builds are automatically on latest Touch Firmware with the exception of OldTouchFirmware builds (of course.)
+
+Not Supported:
+- MIUI
 ```
 
 ## Flashing Process
