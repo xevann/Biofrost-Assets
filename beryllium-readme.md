@@ -27,6 +27,10 @@ Closed Source, sorry :P
 - BiofrostNSE (for non system-ext roms)
 - BiofrostOldTouch (SE build with old nvt firmware version)
 - BiofrostPixelThermal (SE build with Pixel Thermal support)
+
+Side Notes:
+- If a build has both names, that just obviously means it supports both. (e.g: PixelThermal+OldTouchFirmware)
+- Builds are automatically on latest Touch Firmware with the exception of OldTouchFirmware builds (of course.)
 ```
 
 ## Flashing Process
@@ -47,3 +51,4 @@ Closed Source, sorry :P
 ## Important Notes
 - If you have any doubts, questions/queries, join and ask at https://t.me/BiofrostHub
 - Should you encounter any issues after flashing the kernel, your previous kernel file will always be saved on your internal storage, named: backup_boot.img.
+- Kprofiles Guide: https://telegra.ph/Kprofiles-Configuration-Biofrost-Kernel-02-14
