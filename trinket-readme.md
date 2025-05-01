@@ -19,8 +19,8 @@ R-Base: https://github.com/mcdofrenchfreis/biofrost_kernel_realme_sm6125
 
 ```
 Open Beta Builds:
-biofrostOBT-R12-*.zip: Supports both non-dynamic/dynamic ROMs
-biofrostOBT-KSU-R12-*.zip: Same as above but with KSU support
+biofrostOBT-R13-*.zip: Supports both non-dynamic/dynamic ROMs
+biofrostOBT-KSU-R13-*.zip: Same as above but with KSU support
 
 Stable Builds:
 biofrost-R13.Nagao-*.zip: Supports both non-dynamic/dynamic ROMs
