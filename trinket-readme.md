@@ -43,7 +43,7 @@ For Android Version 14-15:
 3. Select "Manual Flashing" and load the kernel.zip
 4. Select flash and reboot.
 
-For Android Version 11 to 13:
+For Android Version 12 to 13:
 - RECOVERY METHOD
 1. Download the required file: fstab_fix (on discussion group, just message #fstabfix)
 2. Reboot to recovery.
